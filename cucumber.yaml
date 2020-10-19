@@ -1,0 +1,5 @@
+---
+  default: -p json -p bdd
+  bdd: --format pretty
+  html: --format html --out=log/report.html 
+  json: --format json --out=log/report.json 
